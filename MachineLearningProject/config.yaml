@@ -1,0 +1,14 @@
+data:
+  lc25000_path: "C:/Users/Oliver/Masters_thesis/datasets/LC25000"
+  crchgd_path: "C:/Users/Oliver/Masters_thesis/datasets"
+
+features:
+  glcm_levels: 32
+  glcm_distances: [1, 2, 5]
+  glcm_angles: [0, 45, 90, 135]
+  lbp_radius: 3
+  lbp_points: 26
+
+train:
+  test_size: 0.2
+  random_state: 42
